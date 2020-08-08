@@ -33,7 +33,7 @@ def print_exception(error, error_code, endpoint, return_dict):
 
 #--------------- Endpoints -----------------------------------#
 
-@app.get("/index", status_code=200)
+@app.get("/", status_code=200)
 def index():
 
     # a = request.headers.get('a')
@@ -300,6 +300,3 @@ async def root(background_tasks: BackgroundTasks):
 def test_async():
     time.sleep(40)
     
-
-if __name__ == '__main__':
-    uvicorn.run(app, debug='true')
