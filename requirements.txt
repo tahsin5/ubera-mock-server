@@ -1,5 +1,6 @@
 colorama==0.4.3
 fastapi==0.60.0
+gunicorn==20.0.4
 h11==0.9.0
 isort==4.3.21
 pydantic==1.6.1
