@@ -1,4 +1,4 @@
-astroid==2.3.3
+astroid==2.4.0
 Click==7.0
 colorama==0.4.3
 fastapi==0.60.0
